@@ -5,9 +5,9 @@ import asyncio
 
 # This is our "database" (just a dictionary for this example)
 notes = {
-    "note1": "Buy milk and eggs",
-    "note2": "Call mom on Sunday",
-    "note3": "Finish project report"
+    "note1": "Brincar com os gatos!",
+    "note2": "Ligar para a mãe no domingo",
+    "note3": "Finalizar o projeto do trabalho"
 }
 
 # Create a FastMCP server instance with custom settings
