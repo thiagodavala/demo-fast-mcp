@@ -32,16 +32,7 @@ async def notes_resource() -> str:
 # Define tool handlers
 @app.tool(
     name="ReadAllNotes",
-    description="Read all notes",
-    annotations=ToolAnnotations(
-        inputSchema={
-            "type": "object",
-            "properties": {
-                "note_id": {"type": "string", "description": "The ID of the note to read"}
-            },
-            "required": ["note_id"]
-        }
-    )
+    description="Read all notes"
 )
 async def read_all_notes() -> str:
     """Read all notes."""
